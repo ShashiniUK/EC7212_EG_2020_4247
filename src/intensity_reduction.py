@@ -1,11 +1,3 @@
-# import cv2
-# import numpy as np
-
-# def reduce_intensity_levels(image_path, levels):
-#     image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
-#     factor = 256 // levels
-#     reduced_image = (image // factor) * factor
-#     return image, reduced_image
 
 import cv2
 import numpy as np
